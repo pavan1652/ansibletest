@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+ - name: Change file ownership, group and permissions
+   file:
+     path: /tmp/test.txt
+     owner: root
+     group: root

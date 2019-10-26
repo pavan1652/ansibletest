@@ -1,5 +1,5 @@
 ---
-- hosts: 3.94.179.163
+- hosts: 172.31.90.185
   tasks:
    - name: Change file ownership, group and permissions
      file:

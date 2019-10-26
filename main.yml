@@ -1,5 +1,5 @@
 ---
-- hosts: 18.206.248.42
+- hosts: all
   tasks:
    - name: Change file ownership, group and permissions
      file:

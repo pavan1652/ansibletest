@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: dev, localhost
   tasks:
    - name: Creating empty file
      file:

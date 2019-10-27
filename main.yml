@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.90.185
+- hosts: dev
   tasks:
    - name: Change file ownership, group and permissions
      file:

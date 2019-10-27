@@ -2,7 +2,5 @@
 - hosts: dev
   tasks:
    - name: Change file ownership, group and permissions
-     file:
-       path: /tmp/test.txt
-       owner: root
-       group: root
+     copy:
+       dest: /tmp/test123.txt

@@ -1,6 +1,7 @@
 ---
 - hosts: dev
   tasks:
-   - name: Change file ownership, group and permissions
-     copy:
-       dest: /tmp/test123.txt
+   - name: Creating empty file
+     file:
+       path: /tmp/test123.txt
+       state: touch
